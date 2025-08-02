@@ -17,6 +17,9 @@ npm run switch:ts  # Switch back to TypeScript version
 # Install dependencies
 npm install
 
+# Initialize the database
+npx tsx src-ts/lib/init-db.ts
+
 # Start the development server
 npm run dev # if switched to TypeScript
   or 
@@ -37,8 +40,7 @@ npm run dev:js     # Development server on port 3001
 npm run build:js   # Production build  
 npm run start:js   # Production server on port 3001
 
-# (already done, can skip) Initialize the database
-npx tsx src-ts/lib/init-db.ts
+
 ```
 
 ## 🔐 Test Credentials
@@ -111,7 +113,7 @@ Saves a game score.
 }
 ```
 
-### GET /api/scoreboard?userId=1
+### GET /api/scoreboard?userId=123
 Retrieves scoreboard data.
 
 **Response:**

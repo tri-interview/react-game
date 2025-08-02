@@ -13,7 +13,7 @@
 
 
 ## 0. Setup Project (5m)
-  1. Clone from GitHub
+  1. Clone from GitHub - https://github.com/tri-interview/react-game
   2. Next Js: App Routing explaination
     the url routes match the file structure of /src/app/
       - ex. to reach the api endpoint login, go to localhost/api/login.  This will route to the file /src/app/api/login/route.ts
