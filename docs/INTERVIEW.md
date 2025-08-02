@@ -1,6 +1,18 @@
 # TRICUSS TECHNICAL INTERVIEW
 
-## 0. Setup (5m)
+## Interview Criteria
+  1. This test was meant for a range of experience levels.  We will adjust accordingly.
+  2. Feel free to ask me questions at any time
+  3. Here's the general critiria for this test:
+  - Programming basics (react, typescript, api integration)
+  - ability to understand other's code, and recognize / write code that follows best practices
+  - problem solving / debugging ability
+  - communication
+  - comfort level throughout the stack
+  - creativity
+
+
+## 0. Setup Project (5m)
   1. Clone from GitHub
   2. Next Js: App Routing explaination
     the url routes match the file structure of /src/app/
@@ -8,28 +20,19 @@
       - ex. to reach the page 'scoreboard', go to localhost/scoreboard.  This will route to the file /src/app/scoreboard/page.tsx
   3. This is not meant to be a time pressure test.  If you need a bit more time, we can try to accomodate.
 
-## Interview Criteria
-  1. This test was meant for a range of experience levels.  We will adjust accordingly.
-  2. Feel free to ask me questions at any time (especially if you are junior and need more explaination of something)
-  3. Here's the general critiria for this test:
-    - Programming basics (react, typescript, api integration)
-    - ability to understand other's code, and recognize / write code that follows best practices
-    - problem solving / debugging ability
-    - communication
-    - comfort level throughout the stack
-    - creativity
-
-## 1. Understand Project Architecture (5-10m)
+## 1. Familiarize yourself with the project (10m)
 
 ### Rules
-  1. No Internet or AI help (it is unnecessary, more likely to be a time waster)
+  1. No Internet or AI help (it is unnecessary, more likely to waste time)
   
 ### Task
-  Spend a few minutes to read the README.md file.  Run the app.  Walk me through the file structure and architecture of the app.
+  - Spend a few minutes to read the README.md file.  Run the app.  Ask questions as needed.
+  - This app will be the basis for our test.
+  - Explain to me what the code under /src/app/api/scoreboard/route.js is doing.
 
-## 2. Debugging (20m)
+## 2. Debugging (20-30m)
   The scoreboard page is broken and incomplete.  Fix what you can in 20 minutes, in the following order.
-  1. Scoreboard is broken
+  1. Scoreboard for all users is broken
   2. User's highest score is not implemented
   3. Scoreboard doesn't correctly list the scores
   4. Implement a list of the user's score history (sorted by date)
@@ -43,7 +46,7 @@
 ### Hints
   1. Refer back to README.md as necessary
 
-## 3. Refactor (20m)
+## 3. Refactor (20-30m)
 
 ### Rules
   1. Internet use is ok for looking things up.  No AI.

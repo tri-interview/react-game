@@ -8,6 +8,7 @@
 
 # next.js
 /.next/
+/.next-js/
 /out/
 
 # production
@@ -40,3 +41,6 @@ next-env.d.ts
 
 # vscode
 .vscode/
+
+# auto generated files, for next.js compatibility
+src/

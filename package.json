@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
+    "dev:ts": "next dev",
+    "dev:js": "./switch-to-js.sh && USE_JS=true next dev -p 3001",
     "dev:debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
-    "start": "next start"
+    "build:ts": "next build",
+    "build:js": "./switch-to-js.sh && USE_JS=true next build",
+    "start": "next start",
+    "start:ts": "next start",
+    "start:js": "USE_JS=true next start -p 3001",
+    "switch:js": "./switch-to-js.sh",
+    "switch:ts": "./switch-to-ts.sh"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +29,8 @@
     "sqlite3": "^5.1.7",
     "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "cross-env": "^10.0.0"
   }
 }
